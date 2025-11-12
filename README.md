@@ -13,6 +13,7 @@ At present, a subset of the test set has been made publicly accessible. The comp
 ### 1. Complete Dataset Structure (to be released upon acceptance)
 Standard partition for model training & full evaluation:
 
+ ``` 
 FCOS/
 ├── train/
 │ ├── gt/       # Ground truth images (700 images)
@@ -20,17 +21,13 @@ FCOS/
 └── test/
 ├── gt/         # Ground truth images (300 images)
 └── lq/         # Low-quality images (300 images)
+ ``` 
 
 ### 2. Test Demo Structure (currently available)
 A small subset of the test set for quick validation:
 
+ ``` 
 testdemo/
 ├── gtdemo/     # Demo ground truth images
 └── lqdemo/     # Demo low-quality images
-
-
-## Usage
-...
-
-## Citation
-...
+ ``` 
