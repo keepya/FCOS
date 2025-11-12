@@ -13,15 +13,23 @@ At present, a subset of the test set has been made publicly accessible. The comp
 ### Complete Dataset Structure (to be released upon acceptance)
 
 FCOS/
+
 ├── train/
+
 │ ├── gt/ # Ground truth images (700 images)
+
 │ └── lq/ # Low-quality images (700 images)
+
 └── test/
+
 ├── gt/ # Ground truth images (300 images)
+
 └── lq/ # Low-quality images (300 images)
 
 ### Test Demo Structure (currently available)
 
 testdemo/
+
 ├── gtdemo/ # Demo ground truth images
+
 └── lqdemo/ # Demo low-quality images
