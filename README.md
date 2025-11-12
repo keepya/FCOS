@@ -8,9 +8,10 @@ We present the Fixed Camera Outdoor Scenes (FCOS) dataset, a comprehensive colle
 
 At present, a subset of the test set has been made publicly accessible. The complete dataset will be released upon acceptance of the associated research paper, thereby providing broader support to the academic and technical community.
 
-# Data Structure
+## Data Structure
 
 ### Complete Dataset Structure (to be released upon acceptance)
+
 FCOS/
 ├── train/
 │   ├── gt/          # Ground truth images (700 images)
@@ -20,6 +21,7 @@ FCOS/
     └── lq/          # Low-quality images (300 images)
 
 ### Test Demo Structure (currently available)
+
 testdemo/
 ├── gtdemo/          # Demo ground truth images
 └── lqdemo/          # Demo low-quality images
