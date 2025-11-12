@@ -27,7 +27,7 @@ FCOS/
 A small subset of the test set for quick validation:
 
  ``` 
-testdemo/
-├── gtdemo/                    # Demo ground truth images
-└── lqdemo/                    # Demo low-quality images
+test_demo/
+├── gt_demo/                    # Demo ground truth images
+└── lq_demo/                    # Demo low-quality images
  ``` 
