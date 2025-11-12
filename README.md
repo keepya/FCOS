@@ -15,12 +15,12 @@ Standard partition for model training & full evaluation:
 
  ``` 
 FCOS/
-├── train/
-│   ├── gt/       # Ground truth images (700 images)
-│   └── lq/       # Low-quality images (700 images)
-└── test/
-    ├── gt/       # Ground truth images (300 images)
-    └── lq/       # Low-quality images (300 images)
+├── train/                     # Training set (700 image pairs)
+│   ├── gt/                    # Ground truth images
+│   └── lq/                    # Low-quality images
+└── test/                      # Test set (300 image pairs)
+    ├── gt/                    # Ground truth images
+    └── lq/                    # Low-quality images
  ``` 
 
 ### 2. Test Demo Structure (currently available)
@@ -28,6 +28,6 @@ A small subset of the test set for quick validation:
 
  ``` 
 testdemo/
-├── gtdemo/       # Demo ground truth images
-└── lqdemo/       # Demo low-quality images
+├── gtdemo/                    # Demo ground truth images
+└── lqdemo/                    # Demo low-quality images
  ``` 
