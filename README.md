@@ -1,4 +1,4 @@
-# Fixed-Camera-Outdoor-Scene-dataset-FCOS
+# Fixed-Camera-Outdoor-Scenes-dataset-FCOS
 
 <div align="center">
   <img src="figures/benchmark.png" width="70%">
