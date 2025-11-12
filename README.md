@@ -28,6 +28,6 @@ A small subset of the test set for quick validation:
 
  ``` 
 test_demo/
-├── gt_demo/                    # Demo ground truth images
-└── lq_demo/                    # Demo low-quality images
+├── gt_demo/                   # Demo ground truth images
+└── lq_demo/                   # Demo low-quality images
  ``` 
