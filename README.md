@@ -19,8 +19,8 @@ FCOS/
 │   ├── gt/                    # Ground truth images
 │   └── lq/                    # Low-quality images
 └── test/                      # Test set (300 image pairs)
-    ├── gt/                    # Ground truth images
-    └── lq/                    # Low-quality images
+     ├── gt/                    # Ground truth images
+     └── lq/                    # Low-quality images
  ``` 
 
 ### 2. Test Demo Structure (currently available)
