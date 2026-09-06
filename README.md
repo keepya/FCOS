@@ -2,7 +2,7 @@
 
 # FCOS: Fixed-Camera Outdoor Scenes Dataset
 
-**A paired real-world dataset for low-light image enhancement in fixed-camera outdoor transmission-line scenes**
+**A paired real-world dataset for low-light image enhancement in fixed-camera outdoor scenes**
 
 ![Status](https://img.shields.io/badge/status-public%20preview-orange.svg)
 ![Task](https://img.shields.io/badge/task-low--light%20image%20enhancement-blue.svg)
