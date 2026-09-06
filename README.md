@@ -1,0 +1,33 @@
+# Fixed-Camera-Outdoor-Scenes-dataset-FCOS
+
+<div align="center">
+  <img src="benchmark.png" width="70%">
+</div>
+
+We present the Fixed Camera Outdoor Scenes (FCOS) dataset, a comprehensive collection of desensitized transmission line imagery captured in diverse outdoor environments. Designed to address the scarcity of existing real-shot low-light image enhancement datasets for outdoor scenes, FCOS is specifically curated to facilitate the development and evaluation of domain-specific models. The dataset consists of 1,000 image pairs, partitioned into a training set of 700 pairs and a test set of 300 pairs.
+
+At present, a subset of the test set has been made publicly accessible. The complete dataset will be released upon acceptance of the associated research paper, thereby providing broader support to the academic and technical community.
+
+## Data Structure
+
+### 1. Complete Dataset Structure (to be released upon acceptance)
+Standard partition for model training & full evaluation:
+
+ ``` 
+FCOS/
+├── train/                     # Training set (700 image pairs)
+│   ├── gt/                    # Ground truth images
+│   └── lq/                    # Low-quality images
+└── test/                      # Test set (300 image pairs)
+     ├── gt/                    # Ground truth images
+     └── lq/                    # Low-quality images
+ ``` 
+
+### 2. Test Demo Structure (currently available)
+A small subset of the test set for quick validation:
+
+ ``` 
+test_demo/
+├── gt_demo/                   # Demo ground truth images
+└── lq_demo/                   # Demo low-quality images
+ ``` 
